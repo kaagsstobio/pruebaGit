@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ens">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <title> CSS</title>
+    <link rel="stylesheet" href="cualquiera.css">
+    <style>
+        h1{
+            border-width: 15px;
+            border-style: groove;
+            border-color: rgb(121, 112, 204);
+            text-align: center;
+            font-style: italic;
+        }
+        div{
+            border: 10px double cornflowerblue;
+            background-color: thistle;
+            padding: 30px;margin: 20px;
+        }
+        h2{
+            border-left: 15px solid rgb(50, 137, 196);
+            background-color: cadetblue;
+        }
+        .solido,.redondeado{border: 1px solid black;margin: 20px;padding: 50px}
+        .redondeado{border-radius: 40px;}
+        .arba{border-top: 4px dashed plum;border-bottom: 4px dashed plum;}
+        .cuadrado{background-color: rgb(117, 148, 206);margin: 20px;padding: 50px; border-top-left-radius: 20px;border-bottom-right-radius: 20px}
+        .cuadrado2{background-color: thistle;margin: 20px;padding: 50px;border-radius: 40px}
+        .der{border-right: 4px dashed rgb(104, 52, 163);border-bottom: 4px dashed rgb(110, 59, 204);}
+    </style>
+</head>
+ 
+ 
+ 
+<body>
+   
+    <h1>Aplicaciones Web</h1>
+    <div>
+    <p class="doble">En la ingeniería de software se denomina aplicación web o software web a aquella herramienta que los usuarios pueden utilizar accediendo a un servidor web a través de internet o de una intranet mediante un navegador. En otras palabras, es un programa que se codifica en un lenguaje interpretable por los navegadores web en la que se confía la ejecución al navegador.</p>
+
+        <p>Cuando hablamos de software web nos referimos a aplicaciones que se instalan en servidores (propios o de alguna empresa que provea servicios de hosting), ordenadores dedicados a proveer servicios, realizar tareas, ante peticiones de otros ordenadores. Estas aplicaciones web o softwares web son desarrollados por programadores que utilizan entornos de programación Frontend y Backend.</p>
+        
+       <p>En este caso, los datos y la lógica de negocio quedan centralizados en el propio servidor y los usuarios podrán acceder a ellos por medio de sus propios navegadores web.</p>
+    </div>
+       <h2>Antecedentes</h2> 
+    <p class="solido">En los primeros tiempos de la computación cliente-servidor, cada aplicación tenía su propio programa cliente que servía como interfaz de usuario que tenía que ser instalado por separado en cada computadora personal de cada usuario. El cliente realizaba peticiones a otro programa —el servidor— que le daba respuesta. Una mejora en el servidor, como parte de la aplicación, requería normalmente una mejora de los clientes instalados en cada computadora personal, añadiendo un coste de soporte técnico y disminuyendo la productividad.</p>
+        
+<p class="redondeado">A diferencia de lo anterior, las aplicaciones web generan dinámicamente una serie de páginas en un formato estándar, como HTML o XHTML, soportados por los navegadores web comunes. Se utilizan lenguajes interpretados en el lado del cliente, directamente o a través de plugins tales como JavaScript, Java, Flash, etc., para añadir elementos dinámicos a la interfaz de usuario. Generalmente cada página web en particular se envía al cliente como un documento estático, pero la secuencia de páginas ofrece al usuario una experiencia interactiva. Durante la sesión, el navegador web interpreta y muestra en pantalla las páginas, actuando como cliente para cualquier aplicación web.</p>
+        
+        <h2>Estructura</h2>
+    <p class="der">Aunque existen muchas variaciones posibles, una aplicación web está normalmente estructurada como una aplicación de tres-capas. En su forma más común, el navegador web ofrece la primera capa, interpretando el código. El servidor que ofrece este código y toda la información es la segunda capa. Por último, una base de datos constituye la tercera y última capa.</p>
+        
+<p class="arba">El navegador web manda peticiones a la capa intermedia, la cual ofrece servicios valiéndose de consultas y actualizaciones a la base de datos, y, a su vez, proporciona una interfaz de usuario.</p>
+        
+        <h2>Capa del navegador</h2>
+    <p class="cuadrado">Son muy utilizados lenguajes o arquitecturas que no son propiamente lenguajes de programación, como HTML o XML. Se utilizan para servir los datos adecuados a las necesidades del usuario, en función de como hayan sido definidos por el dueño de la aplicación.
+    </p> 
+    <p class="cuadrado2">Los desarrolladores web generalmente utilizan lenguajes interpretados (scripts) en el lado del cliente para añadir más funcionalidades, especialmente para ofrecer una experiencia interactiva que no requiera recargar la página cada vez (lo que suele resultar molesto a los usuarios). Se han desarrollado tecnologías para coordinar estos lenguajes con las tecnologías en el lado del servidor. Por ejemplo, AJAX es una técnica de desarrollo web que usa una combinación de varias tecnologías.</p>
+    
+</body>
+</html>
