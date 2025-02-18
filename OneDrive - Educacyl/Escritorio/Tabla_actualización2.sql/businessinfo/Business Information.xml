@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C04491C0-FBC8-029D-B2C0-6C38FA46BAA2">
+<createdBy>angela.canesp</createdBy>
+<createdTime>2025-02-18 12:15:20 UTC</createdTime>
+<ownerDesignName>Tabla_actualización2.sql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

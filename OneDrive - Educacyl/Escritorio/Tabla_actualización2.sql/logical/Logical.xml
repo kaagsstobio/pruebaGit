@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="99E559EC-662F-7407-2C8E-B0044BC6C2DF" mainViewID="4BB6DC83-7ADE-4A72-9467-1C4A2A0288CA">
+<createdBy>angela.canesp</createdBy>
+<createdTime>2025-02-18 12:15:20 UTC</createdTime>
+<ownerDesignName>Tabla_actualización2.sql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

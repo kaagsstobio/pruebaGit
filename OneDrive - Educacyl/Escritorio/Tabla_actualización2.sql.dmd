@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Tabla_actualización2.sql" id="FCEDC453-5F92-42BF-78E5-4F4E2DEE71D4" version="3.5">
+<createdBy>angela.canesp</createdBy>
+<createdTime>2025-02-18 12:15:20 UTC</createdTime>
+<ownerDesignName>Tabla_actualización2.sql</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FCEDC453-5F92-42BF-78E5-4F4E2DEE71D4</designId>
+</OSDM_Design>
